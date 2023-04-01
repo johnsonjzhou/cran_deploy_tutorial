@@ -15,7 +15,7 @@ setClass(
 
 # S4 methods -------------------------------------------------------------------
 
-#' @exportMethod
+#' @exportMethod print
 setMethod(
   f = "print",
   signature = "BaseCircle",
@@ -37,7 +37,7 @@ setMethod(
   }
 )
 
-#' @exportMethod
+#' @exportMethod set_diameter
 #' @include generics.R
 setMethod(
   f = "set_diameter",
@@ -48,7 +48,7 @@ setMethod(
   }
 )
 
-#' @exportMethod
+#' @exportMethod perimeter
 #' @include generics.R
 setMethod(
   f = "perimeter",
@@ -61,7 +61,7 @@ setMethod(
   }
 )
 
-#' @exportMethod
+#' @exportMethod area
 #' @include generics.R
 setMethod(
   f = "area",

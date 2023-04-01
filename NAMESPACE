@@ -3,4 +3,7 @@
 export(area)
 export(perimeter)
 export(set_diameter)
-exportMethods("")
+exportMethods(area)
+exportMethods(perimeter)
+exportMethods(print)
+exportMethods(set_diameter)
