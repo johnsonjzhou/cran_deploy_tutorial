@@ -7,11 +7,9 @@
 #' @param shape The shape as a BaseCircle class object.
 #' @return `NULL`
 #' @export
-perimeter <- function(shape) {
-  return(
-    UseMethod("perimeter")
-  )
-}
+setGeneric(name = "perimeter", def = function(shape) {
+  standardGeneric("perimeter")
+})
 
 #' Area of a circle
 #'
@@ -22,11 +20,9 @@ perimeter <- function(shape) {
 #' @param shape The shape as a BaseCircle class object.
 #' @return `NULL`
 #' @export
-area <- function(shape) {
-  return(
-    UseMethod("area")
-  )
-}
+setGeneric(name = "area", def = function(shape) {
+  standardGeneric("area")
+})
 
 #' Sets the diameter of the circle.
 #'
@@ -38,8 +34,6 @@ area <- function(shape) {
 #' @param shape The shape as a BaseCircle class object.
 #' @return NULL
 #' @export
-set_diameter <- function(shape) {
-  return(
-    UseMethod("set_diameter")
-  )
-}
+setGeneric(name = "set_diameter", def = function(shape) {
+  standardGeneric("set_diameter")
+})
