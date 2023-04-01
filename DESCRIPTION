@@ -1,0 +1,17 @@
+Package: mycirclepackage
+Title: Basic Circle Functions
+Version: 0.0.0.9000
+Authors@R:
+    person(
+        given = "Johnson",
+        family = "Zhou",
+        middle = NULl,
+        email = "johnson.zhou@simplyuseful.io",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Test R package with basic circle functions such as area and perimeter.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
