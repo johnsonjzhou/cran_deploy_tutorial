@@ -3,7 +3,7 @@
 #' @slot r The radius as a number.
 #' @slot d The diameter as a number.
 #' @slot name The name of the object as a character string.
-#'
+#' @exportClass BaseCircle
 setClass(
   Class = "BaseCircle",
   slots = list(

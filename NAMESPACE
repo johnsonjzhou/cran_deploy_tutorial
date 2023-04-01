@@ -3,6 +3,8 @@
 export(area)
 export(perimeter)
 export(set_diameter)
+exportClasses(BaseCircle)
+exportClasses(ColorCircle)
 exportMethods(area)
 exportMethods(perimeter)
 exportMethods(print)
